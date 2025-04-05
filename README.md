@@ -40,7 +40,7 @@ Here’s what I did in the `layoffs_data_cleaning.sql` file:
 ### Repository Structure:
 layoffs-data-cleaning/
 ├── data/
-│   ├── layoffs_cleaned_data.csv       # Cleaned dataset after SQL operations
-│   └── layoffs_raw_data.csv           # Original dataset before cleaning
-├── layoffs_data_cleaning.sql          # SQL script used for data cleaning
-├── README.md
+│   ├── layoffs_cleaned_data.csv    # Cleaned dataset after SQL operations
+│   └── layoffs_raw_data.csv       # Original dataset before cleaning
+├── layoffs_data_cleaning.sql      # SQL script used for data cleaning
+├── README.md                      # Project documentation and overview
