@@ -44,3 +44,4 @@ layoffs-data-cleaning/
 │   └── layoffs_raw_data.csv       # Original dataset before cleaning
 ├── layoffs_data_cleaning.sql      # SQL script used for data cleaning
 ├── README.md                      # Project documentation and overview
+
