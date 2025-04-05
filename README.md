@@ -41,6 +41,29 @@ Here’s what I did in the `layoffs_data_cleaning.sql` file:
 5. **Dropped irrelevant rows**
    - Removed rows with no layoff info (both `total_laid_off` and `percentage_laid_off` were null).
 
+---
+
+## 📈 Exploratory Data Analysis (EDA)
+
+After cleaning the data, I conducted exploratory data analysis (EDA) directly in MySQL using the `layoffs_exploratory_analysis.sql` file. The EDA focused on uncovering patterns and trends in the dataset, such as:
+
+1. **Basic Statistical Analysis:**
+   - Calculated basic summary statistics for layoff counts and percentage laid off across different companies and industries.
+
+2. **Trend Analysis:**
+   - Analyzed layoffs over time (from 2020 to 2023) to uncover trends and possible seasonal effects.
+
+3. **Industry-Specific Analysis:**
+   - Aggregated layoffs by industry to see which sectors were most affected by layoffs.
+   - Analyzed industries that had the largest number of layoffs in specific periods.
+
+4. **Geographical Insights:**
+   - Investigated layoffs by location (country, city) to uncover trends in different regions.
+
+5. **Layoffs vs. Funding Stage:**
+   - Analyzed the correlation between layoffs and the funding stage of companies to uncover patterns in how companies at different stages of funding handled layoffs.
+
+---
    - ## 💻 Tools Used
 - **SQL Dialect**: MySQL
 - **Platform**: MySQL Workbench
