@@ -38,7 +38,9 @@ Here’s what I did in the `layoffs_data_cleaning.sql` file:
 - **Dataset**: Kaggle Layoffs 2022
 
 ### Repository Structure:
-- **README.md**: Project overview, data cleaning steps, and usage instructions.
-- **layoffs_cleaned_data.csv**: The cleaned data file ready for analysis.
-- **layoffs_raw_data.csv**: The original raw data file before cleaning.
-- **layoffs_data_cleaning.sql**: SQL queries used for data cleaning.
+layoffs-data-cleaning/
+├── data/
+│   ├── layoffs_cleaned_data.csv       # Cleaned dataset after SQL operations
+│   └── layoffs_raw_data.csv           # Original dataset before cleaning
+├── layoffs_data_cleaning.sql          # SQL script used for data cleaning
+├── README.md
