@@ -31,18 +31,26 @@ Here’s what I did in the `layoffs_data_cleaning.sql` file:
 
 5. **Dropped irrelevant rows**
    - Removed rows with no layoff info (both `total_laid_off` and `percentage_laid_off` were null)
-   - 
+  
+   - # End-to-End EDA with MySQL: From Raw Layoff Data to Insights
+
+This project walks through a complete data analysis pipeline using SQL — from cleaning raw layoff records to performing exploratory data analysis (EDA) directly in MySQL.
+
+The dataset includes records of company layoffs, dates, employee counts, and more. Using SQL, we cleaned the data, handled nulls/duplicates, and uncovered trends across companies, industries, and time periods.
+
    - ## 💻 Tools Used
 - **SQL Dialect**: MySQL
 - **Platform**: MySQL Workbench
 - **Dataset**: Kaggle Layoffs 2022
 
 ### Repository Structure:
-layoffs-data-cleaning/
+end-to-end-mysql-eda/
 ├── data/
-│   ├── layoffs_cleaned_data.csv    # Cleaned dataset after SQL operations
-│   └── layoffs_raw_data.csv       # Original dataset before cleaning
-├── layoffs_data_cleaning.sql      # SQL script used for data cleaning
-├── README.md                      # Project documentation and overview
+│   ├── layoffs_raw_data.csv                   # Original dataset before cleaning
+│   └── layoffs_cleaned_data.csv               # Cleaned dataset after SQL operations
+├── sql/
+│   ├── layoffs_data_cleaning.sql              # SQL script for data cleaning
+│   └── layoffs_exploratory_analysis.sql       # SQL script for EDA
+├── README.md                                  # Project documentation and overview
 
 
