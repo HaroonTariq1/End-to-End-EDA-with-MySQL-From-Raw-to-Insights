@@ -45,3 +45,4 @@ layoffs-data-cleaning/
 ├── layoffs_data_cleaning.sql      # SQL script used for data cleaning
 ├── README.md                      # Project documentation and overview
 
+
